@@ -1,6 +1,6 @@
 {
   "name": "redux-form-material-ui",
-  "version": "3.0.0",
+  "version": "3.0.0-persuit",
   "description": "An adapter between Redux Form and Material UI components",
   "main": "./lib/index.js",
   "jsnext:main": "./src/index.js",
@@ -34,6 +34,9 @@
     "url": "https://github.com/erikras/redux-form-material-ui/issues"
   },
   "homepage": "https://github.com/erikras/redux-form-material-ui",
+  "dependencies": {
+	"lodash.noop": "^3.0.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-core": "^6.3.26",
@@ -53,7 +56,6 @@
     "expect-jsx": "^2.5.1",
     "isparta": "^4.0.0",
     "jsdom": "^9.3.0",
-    "lodash.noop": "^3.0.1",
     "material-ui": "^0.15.0",
     "mocha": "^2.4.5",
     "mocha-lcov-reporter": "^1.1.0",
